@@ -12,10 +12,10 @@ Like the title says, it's a simple calculator WebApp. I created it to train my J
 - [X] Style the basic HTML interface
 - [X] Code the JS so it has all the basic functions
 - [X] Connect the JS to the HTML elements
-- [ ] Debugging (like dividing by zero and all)
-- [ ] STYLE IT !!!
-- [ ] Responsiveness :)
-- [ ] A little polishing and DONE
+- [X] Debugging (like dividing by zero and all)
+- [X] STYLE IT !!!
+- [X] Responsiveness :)
+- [X] A little polishing and DONE
 
 ---
 
