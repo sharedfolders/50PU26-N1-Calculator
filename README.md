@@ -1,9 +1,36 @@
-Small project to train myself on basic css html and js concepts
+# Calculator WebApp
 
-To DO :
-- Make the JS
-- Clean the HTML
-- make it fully responsive
-- Add all the CSS
+### A simple calculator !
 
-Should be fun :)
+Like the title says, it's a simple calculator WebApp. I created it to train my JS logic.
+
+---
+
+### 🛠️ Work in Progress
+
+- [X] Set up project structure (folders, boilerplate)
+- [X] Style the basic HTML interface
+- [ ] Code the JS so it has all the basic functions
+- [ ] Connect the JS to the HTML elements
+- [ ] STYLE IT !!!
+- [ ] Debugging (like dividing by zero and all)
+- [ ] Responsiveness :)
+- [ ] A little polishing and DONE
+
+---
+
+### ✅ What Could Be Improved (Post-Project To-Do)
+
+- [ ] Come Back after the project is done :)
+
+---
+
+### 🧩 Additional Ideas (Optional)
+
+- [ ] Come Back after the project is done :)
+
+---
+
+### 🧩 Retrospection
+
+I will add a small retrospection on the things i found hard (or easy lol), come back when it's finished !
