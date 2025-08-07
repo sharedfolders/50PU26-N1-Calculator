@@ -62,11 +62,11 @@ $("button").click(function (e) {
 
             if (isNaN(result)){
                 result = 0;
-                $(".result-text").text("Dividing by 0 ? Seriously ?");
+                $(".result-text").text("E");
             };
             if (!isFinite(result)){
                 result = 0;
-                $(".result-text").text("It's over 90000000 !")
+                $(".result-text").text("Inf.")
             };
 
             lastInput = result;
@@ -77,10 +77,11 @@ $("button").click(function (e) {
         catch(err){
             currentInput = "";
             lastInput = 0;
-            $(".result-text").text("You entered something strange !")
+            $(".result-text").text("E")
 
             //IF A USER ENTERS + (or something that's not a number) AT THE END IT ERRORS
             //Also, put the result into the .last-input-text text when you start something else
+            //Also, the nan and finite conditions doesnt work !    
         }
         
 

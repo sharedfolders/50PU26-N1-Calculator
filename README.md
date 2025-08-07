@@ -1,4 +1,4 @@
-# Calculator WebApp
+# Calculator
 
 ### A simple calculator !
 
