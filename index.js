@@ -44,6 +44,7 @@ $("button").click(function (e) {
         currentInput = "";
         lastInput = 0;
         $(".result-text").text(currentInput);
+        $(".last-input-text").text(currentInput);
         break;
 
     case "comma":
@@ -52,43 +53,36 @@ $("button").click(function (e) {
         break;
 
     case "enter":
-        try{
-            if (['+', '-', '*', '/', '%'].includes(currentInput[0])) {
-            result = eval(lastInput + currentInput);
+    try {
+            if (!currentInput || /[+\-*/%]$/.test(currentInput)) {
+                throw new Error("Invalid input");
             }
-            else {result = eval(currentInput)};
 
-            //If you spam enter, it could error i think
+            if (['+', '-', '*', '/', '%'].includes(currentInput[0])) {
+                result = eval(lastInput + currentInput);
+            } else {
+                result = eval(currentInput);
+            }
 
-            if (isNaN(result)){
+            if (isNaN(result)) {
                 result = 0;
                 $(".result-text").text("E");
-            };
-            if (!isFinite(result)){
+            } else if (!isFinite(result)) {
                 result = 0;
-                $(".result-text").text("Inf.")
-            };
+                $(".result-text").text("Inf.");
+            } else {
+                $(".result-text").text("0");
+            }
 
             lastInput = result;
             currentInput = "";
-            $(".result-text").text(result);
-            break;
-        }
-        catch(err){
+            $(".last-input-text").text(lastInput);
+
+        } catch (err) {
             currentInput = "";
             lastInput = 0;
-            $(".result-text").text("E")
-
-            //IF A USER ENTERS + (or something that's not a number) AT THE END IT ERRORS
-            //Also, put the result into the .last-input-text text when you start something else
-            //Also, the nan and finite conditions doesnt work !    
+            $(".result-text").text("0");
+            $(".last-input-text").text(lastInput);
         }
-        
-
-    default:
-        break;
 }
-
-
 });
-

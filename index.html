@@ -10,13 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header><h1 class="mea-culpa-regular">Calculator</h1></header>
-    <div class="calc-container">
+    <header><h1 class="jersey-20-regular">Calculator</h1></header>
+    <div class="calc-container prevent-select">
         <div class="screen-container">
-            <h1 class="last-input-text"></h1>
-            <h1 class="result-text">0</h1>
+            <h4 class="last-input-text"></h4>
+            <h1 class="result-text"></h1>
         </div>
         <div class="button-container">
             <button class="number">1</button>
@@ -29,18 +33,18 @@
             <button class="number">8</button>
             <button class="number">9</button>
             <button class="number">0</button>
-            <button class="enter">Enter</button>
-            <button class="plus">+</button>
-            <button class="minus">-</button>
-            <button class="multiply">*</button>
-            <button class="divide">/</button>
-            <button class="delete">C</button>
-            <button class="delete-all">CE</button>
-            <button class="comma">.</button>
-            <button class="remainder">%</button>
+            <button id="func" class="enter">=</button>
+            <button id="func" class="plus">+</button>
+            <button id="func" class="minus">-</button>
+            <button id="func" class="multiply">*</button>
+            <button id="func" class="divide">/</button>
+            <button id= "func2" class="delete">C</button>
+            <button id= "func2" class="delete-all">CE</button>
+            <button id="func" class="comma">.</button>
+            <button id="func" class="remainder">%</button>
         </div>
     </div>
-    <footer> <h2> Made as part of my <a href="https://github.com/sharedfolders/50-projects-until-2026" target="_blank"> "50 projects until 2026"</a> challenge.  </h2></footer>
+    <footer> <h2 class="jersey-20-regular"> Made by <a class="jersey-20-regular" target="_blank" href="https://sharedfolders.online">SharedFolders</a>, as part of my <a class="jersey-20-regular" href="https://github.com/sharedfolders/50-projects-until-2026" target="_blank"> "50 projects until 2026"</a> challenge.  </h2></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
