@@ -28,6 +28,7 @@ Like the title says, it's a simple calculator WebApp. I created it to train my J
 - My CSS logic. I should've planned in advance a more versatile naming convention, as well as some simpler stuff. Next time, i'll divide it using comments, and better names :)
 - Animations and color palette, even if it's pretty acceptable.
 - Everything basically, even tho i don't think i created a technical debt on the js handler, but the css is TERRIBLE :(
+- Almost forgot but basic keyboard control ???? That's logic lol
 
 ---
 
