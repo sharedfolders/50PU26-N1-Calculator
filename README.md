@@ -6,6 +6,9 @@ Like the title says, it's a simple calculator WebApp. I created it to train my J
 
 ---
 
+### ✅ Visit the final version [Here !](https://sharedfolders.github.io/50PU26-N1-Calculator/)
+
+---
 ### 🛠️ Work in Progress
 
 - [X] Set up project structure (folders, boilerplate)
@@ -21,16 +24,22 @@ Like the title says, it's a simple calculator WebApp. I created it to train my J
 
 ### ✅ What Could Be Improved (Post-Project To-Do)
 
-- [ ] Come Back after the project is done :)
+- Text overflow system. I don't have the knowledge rn but i WILL learn it :))
+- My CSS logic. I should've planned in advance a more versatile naming convention, as well as some simpler stuff. Next time, i'll divide it using comments, and better names :)
+- Animations and color palette, even if it's pretty acceptable.
+- Everything basically, even tho i don't think i created a technical debt on the js handler, but the css is TERRIBLE :(
 
 ---
 
 ### 🧩 Additional Ideas (Optional)
 
-- [ ] Come Back after the project is done :)
+- Fun animations for the whole calculator when you spam the divide by zero.
+- Sounds (for the lol)
+- A scientific mode + skins.
 
 ---
 
 ### 🧩 Retrospection
 
-I will add a small retrospection on the things i found hard (or easy lol), come back when it's finished !
+It looked pretty simple but i had to take some pause to figure the js logic lol. I also chose to not use a css framework, even if it would've looked way better. I feel like it's kind of cheating tbh ahah.
+Anyway, pretty hard, but i learned a lot of new integrated functions, so i guess it's a win + it works :))))
