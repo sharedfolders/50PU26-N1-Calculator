@@ -55,14 +55,13 @@ h1{
     align-content: end;
 }
 
-.last-input{
-    padding: 4px;
+.last-input-text{
+    padding: 8px;
     margin: 0;
 }
 
-.result{
-    padding-left: 4px;
-    padding-right: 4px;
+.result-text{
+    padding: 8px;
     margin: 0;
 }
 

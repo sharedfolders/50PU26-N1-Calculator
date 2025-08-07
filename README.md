@@ -10,10 +10,10 @@ Like the title says, it's a simple calculator WebApp. I created it to train my J
 
 - [X] Set up project structure (folders, boilerplate)
 - [X] Style the basic HTML interface
-- [ ] Code the JS so it has all the basic functions
-- [ ] Connect the JS to the HTML elements
-- [ ] STYLE IT !!!
+- [X] Code the JS so it has all the basic functions
+- [X] Connect the JS to the HTML elements
 - [ ] Debugging (like dividing by zero and all)
+- [ ] STYLE IT !!!
 - [ ] Responsiveness :)
 - [ ] A little polishing and DONE
 
